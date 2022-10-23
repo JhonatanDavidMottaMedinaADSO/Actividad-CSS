@@ -1,34 +1,36 @@
-/* Selector universal selecciona todos los elementos */
-/* * {
-    color: #8a2be3;
-} */
+/* !important
+________________
+estilos en linea
+________________
+Identificadores (id)
+________________
+clases
+pseudo-clases
+atributos
+________________
+elementos
+pseudo-elementos */
 
-/* Selector de tipo es de decir todos los h1
+.colorblue {
+    color: #2192c7;
+}
+
 h1 {
-    color: #bd7920
-} */
-
-/* Selector de tipo clases */
-.titulo-h1 {
     color: #ff0000;
 }
 
-/* Selector de tipo ID */
-#id-element{
-    color: #166f52;
+#idPrueba {
+    color: olive;
 }
 
-/* Selector por atributo */
-[atributo="atr"] {
-    color: #c71585;
+.nombre{
+ color: maroon;
 }
 
-/* Selector descendiente */
-p b {
-    color: #bd7920;
+[prueba="test"] {
+color: aqua;
 }
 
-/* Selector pseudoclase */
-.pseudo-element b:hover{
-    color: #c71585;
+h2 {
+    color: yellowgreen !important;
 }

@@ -1,36 +1,15 @@
-/* !important
-________________
-estilos en linea
-________________
-Identificadores (id)
-________________
-clases
-pseudo-clases
-atributos
-________________
-elementos
-pseudo-elementos */
-
-.colorblue {
-    color: #2192c7;
+.form__input {
+    color: blueviolet;
 }
 
-h1 {
-    color: #ff0000;
+.form__input:first-child {
+    color:green;
 }
 
-#idPrueba {
-    color: olive;
+.form__p {
+    color: #03031f;
 }
 
-.nombre{
- color: maroon;
-}
-
-[prueba="test"] {
-color: aqua;
-}
-
-h2 {
-    color: yellowgreen !important;
+.form__p-h2 {
+    color: mediumslateblue
 }

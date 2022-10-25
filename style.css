@@ -1,44 +1,17 @@
-*{
-    font-size: 25px;
+.caja1 {
+    width: 200px;
+    height: 200px;
+    background: plum;
+    margin: auto;
+    outline: 10px solid blue;
 }
 
-.h1-first {
-    text-align: center;
-    font-size: 35px;
-    line-height: 1px;
-}
-.h2-first {
-    background-color: #9b85af;
-    display: inline-block;
-    padding: 10px 60px;
+.caja2 {
+    width: 200px;
+    height: 200px;
+    background: limegreen;
+    margin: auto;
+    outline: 7px dashed red;
 }
 
-.h2-second {
-    background-color: #40bb9c;
-    display: inline-block;
-    padding: 10px 20px 30px 40px;
-}
-
-p{
-    background-color: #b8f87c;
-    display: inline-block;
-    padding: 100px;
-    box-sizing: border-box;
-    text-align: center;
-    margin: 50px;
-    border-radius: 10px;
-    border: 5px dashed rgb(253, 121, 98);
-    box-shadow: 10px 10px 15px 0px #3f853f;
-    text-shadow: 2px 2px 4px #f53303;
-    transform: rotate(45deg);
-}
-
-/* El box model es el modelo en que se trabajan 
-las cajas las cuales rango de jerarquía y la forma 
-en que se modifica sigue dicho orden el cual es:
-1.content: contenido de la caja
-2.padding: distancia entre el contenido y 
-los bordes de la caja
-3.border: propiedad que rodea la caja
-4.margin: distancia entre el borde de la caja y 
-el exterior de esta */
+/* El outline no ocupa espacio fisico en DOM a diferencia del border */

@@ -3,12 +3,10 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
 font-size: 45px;
 }
 
-body {
-    padding-top: 100px;
-}
 
-.caja-fixed {
+.caja-sticky {
     background: red;
-    position: fixed;
-    margin: -100px 0;
+    position: sticky;
+    opacity: .3;
+    top: 50px;
 }

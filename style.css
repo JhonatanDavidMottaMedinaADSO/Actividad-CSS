@@ -3,33 +3,52 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
 font-size: 20px;
 }
 
-
-.contenedor div {
-    float: right;
+.texto {
     padding: 20px;
 }
 
-.primario {
-    background: red;
-    width: 65%;
+.texto::first-line {
+    color: blue;
+    font-size: 25px;
 }
 
-.secundario {
-    background: blue;
-    width: 35%;
-}
+/* frist-letter
+Los cambios se aplican a la primera letra
+*/
 
-.cont {
-    display: inline-block;
-    margin-top: 50px;
-    background: lightblue;
-    border: 6px solid purple;
+form {
+    margin: 50px auto;
+    display: block;
+    background: gray;
     width: 50%;
-    padding: 15px;
+    height: 100px;
+    padding: 20px;
 }
 
-.cont img{
-    float: right;
-    width: 200px;
-    margin-left: 10px;
+input {
+    padding: 8px;
+    width: 250px; 
+}
+
+input::placeholder {
+    color:red;
+    background: rgb(38, 185, 178);
+}
+
+input::selection{
+    color: purple;
+    background: yellow;
+}
+
+b {
+    margin: 50px auto;
+}
+
+b::before{
+    content: 'Hola soy Jhonatan ';
+    color: green;
+}
+b::after{
+    content:  ', tengo 18 años';
+    color: rgb(214, 194, 16);
 }

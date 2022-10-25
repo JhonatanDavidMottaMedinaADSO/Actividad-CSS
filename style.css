@@ -1,41 +1,44 @@
-/* CSS junto con CSS normalize */
-
-#titulo{
- text-align: center;
- font-family:'Marcellus SC', serif;
- color:brown;
- font-size: 40px;
+*{
+    font-size: 25px;
 }
 
-.form-student {
-    font-size: 10px;
-}
-
-.form-student__h1 {
-    font-family: 'Arima Madurai', cursive;
-    font-size: 3em;
-    color: blue;
-    font-weight: 200px;
-}
-
-.form-student__h2 {
- font-size: 2em;
- font-family: 'Indie Flower', cursive, sans-serif;
- line-height: 1;
- font-weight: 200;
- color: blueviolet;
-}
-
-.poema__h2 {
-    font-size: 40px;
+.h1-first {
     text-align: center;
-    font-family:'Racing Sans One', cursive;;
-    font-weight: 50;
-    color: goldenrod;
+    font-size: 35px;
+    line-height: 1px;
+}
+.h2-first {
+    background-color: #9b85af;
+    display: inline-block;
+    padding: 10px 60px;
 }
 
-.poema__p {
-    font-size: 20px;
-    text-align: center;
-    font-family: 'Akaya Telivigala', cursive;;
+.h2-second {
+    background-color: #40bb9c;
+    display: inline-block;
+    padding: 10px 20px 30px 40px;
 }
+
+p{
+    background-color: #b8f87c;
+    display: inline-block;
+    padding: 100px;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 50px;
+    border-radius: 10px;
+    border: 5px dashed rgb(253, 121, 98);
+    box-shadow: 10px 10px 15px 0px #3f853f;
+    text-shadow: 2px 2px 4px #f53303;
+    transform: rotate(45deg);
+}
+
+/* El box model es el modelo en que se trabajan 
+las cajas las cuales rango de jerarquía y la forma 
+en que se modifica sigue dicho orden el cual es:
+1.content: contenido de la caja
+2.padding: distancia entre el contenido y 
+los bordes de la caja
+3.border: propiedad que rodea la caja
+4.margin: distancia entre el borde de la caja y 
+el exterior de esta */

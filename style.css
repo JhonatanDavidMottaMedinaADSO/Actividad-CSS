@@ -1,15 +1,31 @@
-.form__input {
-    color: blueviolet;
+* {
+  padding: 0px;
+  margin: 0px;  
 }
 
-.form__input:first-child {
-    color:green;
+.form {
+    font-size: 25px;
+    background-color: #0000ff;
+    /* viewport width es el ancho de la pantalla */
+    width: 50vw;
+    /* viewport height es el alto de la pantalla */
+    height: 50vh;
 }
 
-.form__p {
-    color: #03031f;
+/* los valores que le demos en la caja contenedora con px seran los valores que tomaran las medidas relativas*/
+
+.form-student {
+    font-size: 10px;
 }
 
-.form__p-h2 {
-    color: mediumslateblue
+.form-student__h2 {
+ font-size: 4em;
+}
+
+.teacher {
+    font-size: 20px;
+}
+
+.teacher__p {
+    font-size: 2em;
 }

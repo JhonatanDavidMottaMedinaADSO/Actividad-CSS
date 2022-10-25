@@ -1,31 +1,35 @@
-* {
-  padding: 0px;
-  margin: 0px;  
+#titulo{
+ text-align: center;
+ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ color:brown;
+ 
 }
-
-.form {
-    font-size: 25px;
-    background-color: #0000ff;
-    /* viewport width es el ancho de la pantalla */
-    width: 50vw;
-    /* viewport height es el alto de la pantalla */
-    height: 50vh;
-}
-
-/* los valores que le demos en la caja contenedora con px seran los valores que tomaran las medidas relativas*/
 
 .form-student {
     font-size: 10px;
 }
 
+.form-student__h1 {
+    font-size: 3em;
+    color: blue;
+}
+
 .form-student__h2 {
- font-size: 4em;
+ font-size: 2em;
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ line-height: 2;
+ font-weight: 900;
+ color: blueviolet;
 }
 
-.teacher {
-    font-size: 20px;
+.poema__h2 {
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 50;
+    color: goldenrod;
 }
 
-.teacher__p {
-    font-size: 2em;
+.poema__p {
+    text-align: center;
+    font-family: cursive;
 }

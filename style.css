@@ -1,17 +1,50 @@
-.caja1 {
-    width: 200px;
-    height: 200px;
-    background: plum;
-    margin: auto;
-    outline: 10px solid blue;
+*{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 25px;
 }
 
-.caja2 {
-    width: 200px;
-    height: 200px;
-    background: limegreen;
-    margin: auto;
-    outline: 7px dashed red;
+div {
+    width: 120px;
+    height: 120px;
+    display: block;
+    background: yellowgreen;
 }
 
-/* El outline no ocupa espacio fisico en DOM a diferencia del border */
+.caja1{
+background-color: aqua;
+}
+
+.caja2{
+background-color: goldenrod;
+position: relative;
+top: 60px;
+left: 20px;
+z-index: 60;
+}
+
+.caja3{
+background-color: orchid;
+position: relative;
+z-index: 10;
+} 
+
+.caja4{
+background-color: red;
+}
+
+.contenedor {
+    width: 250px;
+    height: 250px;
+    background: yellow;
+    margin: 40px;
+}
+
+.hijo {
+    background: red;
+    width: 120px;
+    height: 120px;
+    position: relative;
+    top: -20px;
+    left: -20px;
+    z-index: -1;
+}

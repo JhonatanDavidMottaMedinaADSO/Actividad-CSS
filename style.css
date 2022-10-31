@@ -3,17 +3,39 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
 font-size: 20px;
 }
 
-div {
+
+.caja1{
     margin: 30px;
     width: 400px;
     height: 200px; 
-    background: pink;
-    border: 3px dashed #4a6b17;
-    cursor: crosshair;
+    background: rgb(200, 200, 200);
+    border: 3px dashed rgb(255,0,0);
 }
-
-div:active{
-cursor: grab;
-background: purple;
-transition: 1s;
+.caja2{
+    margin: 30px;
+    width: 400px;
+    height: 200px; 
+    background: rgb(0, 255, 0);
+    border: 3px solid rgb(150, 4, 200);
+}
+.caja3{
+    margin: 30px;
+    width: 400px;
+    height: 200px; 
+    background: rgba(230, 11, 11, 0.4);
+    border: 3px groove #c05f0f;
+}
+.caja4{
+    margin: 30px;
+    width: 400px;
+    height: 200px; 
+    background: #e60a2f;
+    border: 3px dotted #cecdd0;
+}
+.caja5{
+    margin: 30px;
+    width: 400px;
+    height: 200px; 
+    background: #cf9feb;
+    border: 3px inset #800080;
 }

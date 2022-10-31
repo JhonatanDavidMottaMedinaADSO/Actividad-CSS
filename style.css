@@ -3,32 +3,30 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
 font-size: 20px;
 }
 
-.texto {
-    padding: 20px;
+.caja1 {
+    height: 200px;
+    width: 200px;
+    background: seagreen;
+    transition: background 1s, height 2s, width 1s;
 }
 
-.texto::first-line {
-    color: blue;
-    font-size: 25px;
+.caja1:hover {
+    background: blue;
+    height: 300;
+    width: 150px;
 }
 
-/* frist-letter
-Los cambios se aplican a la primera letra
-*/
-
-form {
-    margin: 50px auto;
+.linkej {
+    margin: 30px;
+    padding: 10px;
     display: block;
-    background: gray;
-    width: 50%;
-    height: 100px;
-    padding: 20px;
+    margin: 6px solid black;
 }
 
-input {
-    padding: 8px;
-    width: 250px; 
+.linkej:link{
+   color:blueviolet
 }
+
 
 input::placeholder {
     color:red;

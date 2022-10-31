@@ -3,43 +3,17 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
 font-size: 20px;
 }
 
-.caja1 {
+div {
     margin: 30px;
-    width: 800px;
+    width: 400px;
     height: 200px; 
-}
-   
-.caja1 img {
-    width: 100%;
-    height: 100%;
-    border: 3px solid red;
-    object-fit: contain;
-    object-position: left;
+    background: pink;
+    border: 3px dashed #4a6b17;
+    cursor: crosshair;
 }
 
-.caja2 {
-    margin: 30px;
-    width: 800px;
-    height: 200px; 
-}
-
-.caja2 img {
-    width: 100%;
-    height: 100%;
-    border: 3px solid red;
-    object-fit: contain;
-    object-position: right;
-}
-.caja3 {
-    margin: 30px;
-    width: 800px;
-    height: 200px; 
-}
-
-.caja3 img {
-    width: 100%;
-    height: 100%;
-    border: 3px solid red;
-    object-fit: contain;
-    object-position: center;
+div:active{
+cursor: grab;
+background: purple;
+transition: 1s;
 }

@@ -4,38 +4,24 @@ font-size: 20px;
 }
 
 
-.caja1{
-    margin: 30px;
-    width: 400px;
-    height: 200px; 
-    background: rgb(200, 200, 200);
-    border: 3px dashed rgb(255,0,0);
+div {
+    width:45%;
+    display: inline-block;
+    padding: 20px;
+    background: #a1b3f5;
 }
-.caja2{
-    margin: 30px;
-    width: 400px;
-    height: 200px; 
-    background: rgb(0, 255, 0);
-    border: 3px solid rgb(150, 4, 200);
+h1 {
+    font-size: 20px;
 }
-.caja3{
-    margin: 30px;
-    width: 400px;
-    height: 200px; 
-    background: rgba(230, 11, 11, 0.4);
-    border: 3px groove #c05f0f;
-}
-.caja4{
-    margin: 30px;
-    width: 400px;
-    height: 200px; 
-    background: #e60a2f;
-    border: 3px dotted #cecdd0;
-}
-.caja5{
-    margin: 30px;
-    width: 400px;
-    height: 200px; 
-    background: #cf9feb;
-    border: 3px inset #800080;
+
+.caja2 {
+background: #f2c4b2;
+}   
+
+@media only screen and (max-width: 800px) {
+
+    div {
+display: block;
+width: 100%;
+    }
 }
